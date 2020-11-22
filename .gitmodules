@@ -1,0 +1,6 @@
+[submodule "airootfs/home/sarenord"]
+	path = airootfs/home/sarenord
+	url = git@github.com:shell-drick/dotfiles
+[submodule "airootfs/usr/bin/polybar"]
+	path = airootfs/usr/bin/polybar
+	url = git@github.com:polybar/polybar
