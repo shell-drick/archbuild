@@ -4,3 +4,6 @@
 [submodule "airootfs/usr/bin/polybar"]
 	path = airootfs/usr/bin/polybar
 	url = git@github.com:polybar/polybar
+[submodule "airootfs/usr/bin/stterm"]
+	path = airootfs/usr/bin/stterm
+	url = git@github.com:shell-drick/stterm
