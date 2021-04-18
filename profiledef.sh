@@ -10,4 +10,4 @@ install_dir="arch"
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
-file_permissions=(["/usr/bin/polybar"]="0:0:755" ["/usr/bin/polybar-msg"]="0:0:755" ["/usr/bin/st"]="0:0:755")
+file_permissions=(["/usr/bin/polybar"]="1000:1000:755" ["/usr/bin/polybar-msg"]="1000:1000:755" ["/usr/bin/st"]="1000:1000:755")

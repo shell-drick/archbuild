@@ -26,6 +26,7 @@ function build_stterm() {
     cd ..
     rm -rf stterm
     cd $_base_dir
+    chmod +x airootfs/usr/bin/st
 }
 
 
