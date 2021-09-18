@@ -1,0 +1,28 @@
+{
+	"custom-commands": [
+		"git clone git@github.com:shell-drick/dotfiles /home/sarenord/"
+	],
+	"bootloader": "grub-install",
+	"filesystem": "ext4",
+	"nic": {
+		"NetworkManager": true
+	},
+	"hostname": "splinter",
+	"ntp": true,
+	"kernels": [
+		"link"
+	],
+	"keyboard-language": "us",
+	"sys-encoding": "utf-8",
+	"sys-language": "en_US",
+	"timezone": "US/Eastern",
+	"harddrive": {
+		"path": "/dev/sda"
+	},
+	"mirror-region": "Worldwide",
+	"superusers": {
+		"sarenord": {
+			"!password": "plmoknijb9"
+		}
+	}
+}
